@@ -1,11 +1,11 @@
-About r-clustcurv
-=================
+About r-clustcurv-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clustcurv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/noramvillanueva/clustcurv
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clustcurv-feedstock/blob/main/LICENSE.txt)
 
 Summary: A method for determining groups in multiple curves with an automatic selection of their number based on k-means or k-medians algorithms. The selection of the optimal number is provided by bootstrap methods. The methodology can be applied both in regression and survival framework. Implemented methods are: Grouping multiple survival curves described by Villanueva et al. (2018) <doi:10.1002/sim.8016>.
 
