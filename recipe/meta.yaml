@@ -1,4 +1,4 @@
-{% set version = '2.0.1' %}
+{% set version = "2.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clustcurv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clustcurv/clustcurv_{{ version }}.tar.gz
-  sha256: 78140acb3686a02ea8a760a5c9c3ab753dc04af64154e70b8577a8d02e4174f6
+  sha256: 64e968b294eaa8064e0d2ccd5ba43de52bd4b8f546c71dc9e10dea336a4fb0de
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -53,11 +53,8 @@ test:
 about:
   home: https://github.com/noramvillanueva/clustcurv
   license: MIT
-  summary: 'A method for determining groups in multiple curves with an automatic selection of
-    their number based on k-means or k-medians algorithms. The selection of the optimal
-    number is provided by bootstrap methods. The methodology can be applied both in
-    regression and survival framework. Implemented methods are: Grouping multiple survival
-    curves described by Villanueva et al. (2018) <doi:10.1002/sim.8016>.'
+  summary: 'A method for determining groups in multiple curves with an automatic selection of their number based on k-means or k-medians algorithms. The selection of the optimal number is provided by bootstrap methods. The methodology can be applied both in regression and survival framework. Implemented methods are: Grouping
+    multiple survival curves described by Villanueva et al. (2018) <doi:10.1002/sim.8016>.'
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
