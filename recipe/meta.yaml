@@ -33,7 +33,7 @@ requirements:
     - r-ggplot2
     - r-npregfast
     - r-survival
-    - r-surveminer
+    - r-survminer
   run:
     - r-base
     - r-gmedian
