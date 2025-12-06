@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clustcurv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clustcurv/clustcurv_{{ version }}.tar.gz
-  sha256: 9311b5e2ac8ab32ebee6a9711f36aad330656685709cb8dfc77c5e8af6a29c15
+  sha256: 055aa632b44cb2e2f79645fa29d5257c8b419e468c782c325195694f5ec728d2
 
 build:
   number: 0
